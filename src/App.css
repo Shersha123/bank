@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
   flex-direction: column;
+}
+
+.logo{
+ width: 120px;
+ height: 120px;
+ margin-right: 0px;
+}
+
+.container{
+  display:flex;
+}
+
+.form-container{
+
+ display:grid;
+ grid-template-columns: repeat(8, 1fr);
+ gap:15px;
+ width: 50%;
+
+  /* display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  width: 50%;
+  margin: 20px;
+  gap:10px; */
+}
+
+.text-field-1{
+  grid-column : 1/5;
+}
+
+.text-field-2{
+  grid-column : 5/9;
+}
+
+.text-field-3{
+  grid-column : 1/4;
+}
+
+.text-field-4{
+  grid-column : 4/9;
+}
+
+.text-field-5{
+  grid-column : 1/4;
+}
+.text-field-6{
+  grid-column : 1/9;
+}
+
+.form-heading{
+  grid-column : 6/9;
+  margin-right: 0px;
+}
+
+.text-field-7{
+  grid-column : 1/6;
+}
+
+.text-field-8{
+  grid-column : 6/9;
+}
+
+.text-field-9{
+  grid-column : 1/9;
+}
+
+.text-field-10{
+  grid-column : 1/5;
+}
+
+.img-1{
+  grid-column : 8/9;
+  width: 150px;
+  height: 100px;
+}
+.img-2{
+ content: centre;
+}
+.userlist-container{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  height: 200px;
+  margin: 20px;
+  gap: 10px;
+  margin-right: 0px;
+}
+
+.user-container{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+}
+
+.user-details{
+  display:flex;
+  justify-content: space-between;
+}
+
+.user-spec{
+  width: 70%;
+}
+
+.profile-spec{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.profile{
+ width: 150px;
+ height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-button{
+  grid-column : 3/6;
+  border-radius: 10%;
 }
