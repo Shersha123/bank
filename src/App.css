@@ -78,7 +78,7 @@
   height: 100px;
 }
 .img-2{
- content: centre;
+  content: center;
 }
 .userlist-container{
   display:flex;
@@ -86,8 +86,7 @@
   width: 50%;
   height: 200px;
   margin: 20px;
-  gap: 10px;
-  margin-right: 0px;
+  gap: 20px;
 }
 
 .user-container{
@@ -120,4 +119,10 @@
 .form-button{
   grid-column : 3/6;
   border-radius: 10%;
+}
+
+.editButton{
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
 }
